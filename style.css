@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+
+body{
+	margin:0;
+	background-color:whitesmoke;
+	padding:0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:15px;
+	z-index:-2;
+}
+
+/* global */
+
+
+/* PRELOADER    */
+
+
+.preloader{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/*   HEADER   */
+
+.container{
+	
+	margin:auto;
+	overflow:hidden;}
+
+header{
+	
+	margin:0;
+	background-color:#1D2731;
+	color:white;
+	padding:15px 0px 0px 0px;
+	border-bottom: #D9B310 solid 3px;
+	min-height: 70px;
+	
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	float:left;
+	display:inline;
+	padding:10px 5px 0px 5px;
+	
+}
+
+header #numetop{
+	float:left;
+	font-size:30px;
+    margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:0px;
+}
+
+.prima{
+	color:#D9B310;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left:90%;
+	font-size:25px;
+	color:red;
+
+	
+}
+/* poza cu mine copac */
+#poza1{
+	margin:0;
+	padding-bottom:10%;
+	background:url(magnitioiustiniito.jpg) no-repeat ;
+	text-align:right;
+	color:white;
+	font-size: 20px;
+	margin-bottom:0;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width:auto;
+	
+}
+
+
+
+#poza1 h1{
+	text-align:center;
+	color:white;
+	margin-left:50%;
+	margin-top:10%;
+	font-weight: bold;
+	font-size:50px;
+	border-top:#401551 dashed 1px;
+	border-bottom:#401551 dashed 1px;
+	
+	
+}
+
+
+/* sectiunea ce stiu --dupa-- */
+ 
+#ce{
+	text-align:center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:30px;
+}
+
+div{
+	z-index:1;
+}
+
+section{
+	z-index:2;
+}
+
+#laptop{
+	
+	width: 100%;
+	position:absolute;
+	opacity:0.5;
+	z-index:-1;
+	overflow: hidden;
+	margin-bottom: -50%;
+	
+	
+	
+}
+
+.box{
+	
+	margin-left:3%;
+	width: 45%;
+	float:left;
+	display:inline;
+    opacity:0.7;
+    
+}
+
+.box h3{
+	font-size: 20px;
+	margin-left:38%;
+	opacity:1;
+}
+
+.box img{
+	width: 30%;
+	margin-left:25%;
+	opacity:1;
+}
+
+
+
+.box{
+	background-color:#4E1A61;
+	margin-bottom:1.5%;
+	
+	
+}
+
+.box p{
+	color:white;
+		
+}
+
+.top{
+	margin-right:2%;
+	margin-bottom:32%;
+}
+
+#boxjs{
+	float:left;
+	
+}
+
+#boxhtml{
+	float:right;
+	padding-bottom: 2.2%;
+	
+}
+
+.jos {
+	margin-right:2%;
+}
+
+#boxcss{
+	padding-bottom: 3.3%;
+	float:left;
+	
+}
+
+#boxcss h3{
+	margin-left:40%;
+	margin-bottom:-3%;
+}
+
+#boxcss img{
+	margin-left:30%;
+}
+
+#boxarduino{
+	float:right;
+	margin-left: 6%;
+	padding-bottom: 10%;
+	padding-bottom: 1%;
+}
+
+
+#boxcss p {
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#boxarduino p{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+#boxarduino img{
+	margin-left: 33%;
+}
+
+
+
+
+.js{
+    visibility: hidden;
+	line-height: 150%;
+	color:white;
+	margin-left:10%;
+}
+
+
+.html{
+	
+	line-height: 150%;
+	color:white;
+	margin-left:10%;
+}
+
+#btnjs{
+	margin-bottom:10%;
+	margin-left:40%;
+	cursor: pointer;
+}
+
+
+
+#btnarduino{
+	background:none;
+	border-color:#D9B310;
+	float:right;
+	cursor: pointer;
+}
+
+#btnhtml{
+	cursor: pointer;
+	background: none;
+	border:none;
+	width: auto;
+	height: auto;
+	display:block;
+	margin-left:35%;
+	margin-top:5%;
+	size:20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.boxcss{
+	float:left;
+	overflow: hide;
+	
+}
+
+
+.jos{
+	max-height: 270px;
+	
+}
+
+.tt{
+	color:black;
+	text-align:center;
+	float:left;
+	
+	
+}
+
+.video{
+	float:right;
+	
+}
+
+
+
