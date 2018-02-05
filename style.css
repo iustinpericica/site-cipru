@@ -291,22 +291,89 @@ section{
 
 
 .jos{
-	max-height: 270px;
-	
+	display: block;
+	height: 30%;
+	height: auto;
+	margin:0;
+	height: 300px;
+	margin-bottom: 0;
 }
+
+
 
 .tt{
 	color:black;
 	text-align:center;
 	float:left;
 	
-	
-}
-
-.video{
-	float:right;
-	
 }
 
 
 
+
+
+
+
+
+/* CE IMI PLACE SA FAC */
+
+.ce{
+	text-align:center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:30px;
+	margin-top:0px;
+}
+
+
+/* HOBBYYSSSSSSSS */
+
+.hobby{
+	height: 200px;
+}
+
+ul li {
+	list-style-type: none;
+    
+}
+
+.tenisd{
+	display:inline;
+	float:left;
+	width: 40%;
+	margin-right:10%;
+}
+
+.roboticad{
+	
+	display:inline;
+	
+}
+
+
+.tennisd li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display:block;
+}
+
+.roboticad li{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display:block;
+	
+}
+
+.tenis{
+	text-align:center;
+}
+
+.robotica{
+	text-align:center;
+	
+}
+
+.scristenis {
+	
+	margin-top:5px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+	
+}
