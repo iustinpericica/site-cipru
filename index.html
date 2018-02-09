@@ -5,6 +5,9 @@
 <title>Untitled Document</title>
 <link rel="stylesheet" href="style.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -18,7 +21,7 @@
    		</div>
    		<nav>
    		  <ul>
-   		  	<li><a href="file:///C|/Users/Iustin/Documents/Unnamed Site 2/www.facebook.com/iustin.pericica"><span class="prima">Facebook</span></a></li>
+   		  	<li><a href="https://www.facebook.com/iustin.pericica"><span class="prima">F</span>acebook</a></li>
    		  	<li><a href="file:///C|/Users/Iustin/Documents/Unnamed Site 2/www.facebook.com/iustin.pericica">Media</a></li>
             <li><a href="file:///C|/Users/Iustin/Documents/Unnamed Site 2/www.facebook.com/iustin.pericica">Contact</a></li>
    		  </ul>
@@ -108,7 +111,12 @@
 	Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor 
 	</div>
 </ul>
-<p>test</p>
+<p><button type="button" id="btnmergila" class="btn btn-success">Mergi la:</button></p>
+<div class="row">
+  <div class="col-sm-4"><button type="button" class="btn btn-success">Contact</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-success">Videoclip robotica</button></div>
+  <div class="col-sm-4"><button type="button" class="btn btn-success">Cum m-a schimbat tenisul</button></div>
+</div>
 </body> 
 		
  <script>
@@ -129,9 +137,7 @@ $("#btnjs").click(function(){
   };
 });
 	 
-	 
-	 
-	 
+	 	 
 	var okh=true;
 $("#btnhtml").click(function(){
 	
@@ -145,7 +151,10 @@ $("#btnhtml").click(function(){
 	            $('.html').css('visibility', 'visible');
   };
 }); 
-	
+
+$('#btnarduino').click(function(){
+	window.location.replace("curs.html");
+});
  </script>
   
 </html>

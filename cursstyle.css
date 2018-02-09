@@ -50,3 +50,63 @@ font-size: 30px;
 height:auto;
 	
 }
+
+/*   HEADER   */
+
+.container{
+	
+	margin:auto;
+	overflow:hidden;}
+
+header{
+	
+	margin:0;
+	background-color:#1D2731;
+	color:white;
+	padding:15px 0px 0px 0px;
+	border-bottom: #D9B310 solid 3px;
+	min-height: 70px;
+	
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header ul li{
+	float:left;
+	display:inline;
+	padding:10px 5px 0px 5px;
+	
+}
+
+header #numetop{
+	float:left;
+	font-size:30px;
+    margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:0px;
+}
+
+.prima{
+	color:#D9B310;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left:90%;
+	font-size:25px;
+	color:red;
+
+	
+}

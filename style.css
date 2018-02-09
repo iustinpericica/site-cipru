@@ -264,6 +264,7 @@ section{
 
 
 #btnarduino{
+	color:white;
 	background:none;
 	border-color:#D9B310;
 	float:right;
@@ -376,4 +377,9 @@ ul li {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	
 	
+}
+
+#btnmergila {
+	margin-left:40%;
+	background-color:#EDD113
 }
